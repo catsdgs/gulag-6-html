@@ -8,8 +8,8 @@ $(document).ready(function(){
     document.getElementById("url").focus();
   }, 200);
   setTimeout(() => {
-     M.toast({html: "<h4><b>Very Important Notice: Goolag domain has changed.</b> To access Goolag now, please go to <i><a href='https://goolag.app'>goolag.app</a></i></b>. Gulag.ga will be going down on <b>1/24/21</b></h4>"})
-  }, 1000);
+     M.toast({html: "<h3><b>Very Important Notice: Goolag domain has changed.</b> To access Goolag now, please go to <i><a href='https://goolag.app'>goolag.app</a></i></b>. Gulag.ga will be going down on <b>1/24/21</b></h3>"})
+  }, 500);
 });
 
 $(document).ready(function() {
